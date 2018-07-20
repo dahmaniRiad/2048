@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane fx:id="sample" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleEnterPressed" prefHeight="600.0" prefWidth="600.0" stylesheets="@styesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <GridPane fx:id="matrise" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleEnterPressed" prefHeight="400.0" prefWidth="400.0" BorderPane.alignment="TOP_CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="r0c0" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" textFill="#b3ad91" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r0c1" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r0c2" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Label>
+            <Label fx:id="r0c3" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r1c0" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r1c1" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r1c2" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r1c3" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r2c0" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r2c2" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r2c1" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r2c3" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r3c0" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r3c1" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r3c2" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+            <Label fx:id="r3c3" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.77" color="#93835d" height="29.9" radius="16.6725" width="38.79" />
+               </effect></Label>
+         </children>
+         <BorderPane.margin>
+            <Insets top="25.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </center>
+   <left>
+      <Button mnemonicParsing="false" onAction="#restClicked" prefHeight="40.0" prefWidth="100.0" text="Reset" BorderPane.alignment="BOTTOM_LEFT">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </left>
+   <right>
+      <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Save" BorderPane.alignment="BOTTOM_LEFT">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </right>
+   <top>
+      <GridPane alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="SCORE" alignment="CENTER_RIGHT" text="SCORE" GridPane.halignment="RIGHT">
+               <GridPane.margin>
+                  <Insets right="25.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="SCOREVALUE" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </top>
+</BorderPane>

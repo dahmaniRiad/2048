@@ -1,0 +1,58 @@
+#matrise{
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #93835d;
+}
+
+
+BorderPane{
+    -fx-background-color: #969074;
+
+
+
+}
+Label{
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+    -fx-text-fill: #93835d;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #93835d;
+    -fx-pref-width:100px;
+    -fx-pref-height:100px;
+}
+#SCORE{
+    -fx-font-size: 30px;
+    -fx-border-width: 0px;
+    -fx-text-fill: #FFF;
+    -fx-pref-width:150px;
+    -fx-pref-height:60px;
+    }
+#SCOREVALUE{
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFF;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #FFF;
+    -fx-pref-width:150px;
+    -fx-pref-height:60px;
+
+}
+.button{
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+    -fx-background-color: #006666;
+    -fx-background-radius: 22;
+    -fx-text-fill: white ;
+}
+.button:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-font-size: 20;
+    -fx-background-radius: 22;
+    -fx-text-fill: #006666;
+    -fx-border-color: #006666;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
